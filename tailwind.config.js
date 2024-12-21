@@ -33,14 +33,24 @@ module.exports = {
       "55xl-5": "74.5px",
       "26xl": "45px",
       "41xl": "60px",
+      "15xl": "34px",
+      xl: "20px",
+      "8xl": "27px",
+      "38xl": "57px",
       inherit: "inherit",
     },
     screens: {
       mq1725: {
         raw: "screen and (max-width: 1725px)",
       },
+      mq1700: {
+        raw: "screen and (max-width: 1700px)",
+      },
       mq1525: {
         raw: "screen and (max-width: 1525px)",
+      },
+      mq1325: {
+        raw: "screen and (max-width: 1325px)",
       },
       mq1225: {
         raw: "screen and (max-width: 1225px)",
