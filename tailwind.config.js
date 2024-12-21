@@ -4,17 +4,28 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        darkslategray: "#2a4a3f",
+        darkslategray: {
+          "100": "#2b5a52",
+          "200": "#2a4a3f",
+        },
         "color-9": "#ecebe0",
         darkslateblue: "#2a2c77",
         gold: "#ffe012",
         "color-10": "#fff",
         black: "#000",
+        gainsboro: "#d9d9d9",
+        gray: {
+          "100": "rgba(255, 255, 255, 0.4)",
+          "200": "rgba(0, 0, 0, 0.1)",
+        },
       },
       spacing: {},
       fontFamily: {
         "ibm-plex-serif": "'IBM Plex Serif'",
         montserrat: "Montserrat",
+      },
+      borderRadius: {
+        "3xs": "10px",
       },
     },
     fontSize: {
@@ -40,6 +51,9 @@ module.exports = {
       "38xl": "57px",
       "45xl": "64px",
       "32xl": "51px",
+      base: "16px",
+      xs: "12px",
+      mid: "17px",
       inherit: "inherit",
     },
     screens: {
@@ -78,6 +92,9 @@ module.exports = {
       },
       mq750: {
         raw: "screen and (max-width: 750px)",
+      },
+      mq675: {
+        raw: "screen and (max-width: 675px)",
       },
       mq450: {
         raw: "screen and (max-width: 450px)",
